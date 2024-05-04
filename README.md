@@ -1,5 +1,7 @@
 #EBAC_AJAX e EXEÇÕES
 
+Este é um código HTML que cria uma interface de usuário para um formulário de pedido. Ele usa a biblioteca Bootstrap para estilização e a biblioteca jQuery para manipulação de eventos e AJAX. Aqui está uma explicação detalhada:
+
 1. `$(document).ready(function(){...});`: Este é um evento jQuery que é acionado quando o documento HTML termina de carregar. Todo o código dentro desta função será executado assim que a página estiver pronta.
 
 2. `$('#cep').mask('00000-000');`: Esta linha está aplicando uma máscara de entrada ao elemento com o id 'cep'. A máscara '00000-000' é usada para formatar a entrada como um CEP brasileiro.
